@@ -21,10 +21,8 @@
     "collectionId": "Page1__$JSModule1_1$_JSModule1",
     "executeOnLoad": true,
     "clientSideExecution": true,
-    "isValid": false,
-    "invalids": [
-      "No configurations found in this action"
-    ],
+    "isValid": true,
+    "invalids": [],
     "messages": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
