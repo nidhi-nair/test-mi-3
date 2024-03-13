@@ -29,10 +29,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1__$JSModule1_1$_Query1",
-              "name": "_$JSModule1_1$_Query1",
+              "id": "Page1__$JSModule1_1$_JSModule1.myFun2",
+              "name": "_$JSModule1_1$_JSModule1.myFun2",
+              "collectionId": "Page1__$JSModule1_1$_JSModule1",
+              "clientSideExecution": true,
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
+              "pluginType": "JS",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
@@ -41,37 +43,7 @@
               "name": "_$QueryModule1_1$_QueryModule1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
-              "jsonPathKeys": [
-                "QueryModule1_1.inputs.limit"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1__$JSModule1_1$_JSObject1.myFun2",
-              "name": "_$JSModule1_1$_JSObject1.myFun2",
-              "collectionId": "Page1__$JSModule1_1$_JSObject1",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  return _$JSModule1_1$_Query1.data;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1__$JSModule1_1$_JSModule1.myFun2",
-              "name": "_$JSModule1_1$_JSModule1.myFun2",
-              "collectionId": "Page1__$JSModule1_1$_JSModule1",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  return _$JSModule1_1$_JSObject1.myFun2.data;\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

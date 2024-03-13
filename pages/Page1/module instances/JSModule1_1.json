@@ -9,8 +9,14 @@
     "pageId": "Page1",
     "inputs": {},
     "jsonPathKeys": [],
-    "isValid": true,
-    "invalids": [],
+    "isValid": false,
+    "invalids": [
+      "Module instance does not have a valid module reference in the workspace. Please import package \"Untitled Package 1\" to your current workspace to resolve this issue."
+    ],
+    "invalidState": {
+      "packageName": "Untitled Package 1",
+      "moduleName": "JSModule1"
+    },
     "userPermissions": []
   },
   "id": "Page1_JSModule1_1",
