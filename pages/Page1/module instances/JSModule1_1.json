@@ -3,14 +3,21 @@
   "moduleUUID": "65f211ea964dd11eac8295f7",
   "type": "JS_MODULE",
   "unpublishedModuleInstance": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "name": "JSModule1_1",
     "contextType": "PAGE",
     "pageId": "Page1",
     "inputs": {},
     "jsonPathKeys": [],
-    "isValid": true,
-    "invalids": [],
+    "isValid": false,
+    "invalids": [
+      "Module instance does not have a valid module reference in the workspace. Please update the existing package \"Untitled Package 1\" with module JSModule1 to resolve this issue."
+    ],
+    "invalidState": {
+      "packageName": "Untitled Package 1",
+      "moduleName": "JSModule1",
+      "originPackageId": "65f21332964dd11eac8296b1"
+    },
     "userPermissions": []
   },
   "id": "Page1_JSModule1_1",
